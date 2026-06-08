@@ -1,0 +1,54 @@
+/*
+3DaysOfSwift Documentation Platform
+Swift.org Inspired Syntax Colours
+Swift programming language
+*/
+
+.token.keyword {
+    color: #ff7ab2;
+}
+
+.token.string {
+    color: #ff8170;
+}
+
+.token.number {
+    color: #d9c97c;
+}
+
+.token.class-name,
+.token.builtin,
+.token.constant {
+    color: #c792ea;
+}
+
+.token.function {
+    color: #6bdfff;
+}
+
+.token.comment {
+    color: #7f8c98;
+    font-style: italic;
+}
+
+.token.operator,
+.token.punctuation {
+    color: #f5f5f7;
+}
+
+.token.property,
+.token.variable {
+    color: #f5f5f7;
+}
+
+.token.boolean,
+.token.nil {
+    color: #d9c97c;
+}
+
+.token.class-name,
+.token.builtin,
+.token.constant,
+.token.type {
+    color: #c792ea;
+}
