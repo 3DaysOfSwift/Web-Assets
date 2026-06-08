@@ -5,11 +5,11 @@ Swift programming language
 */
 
 .token.keyword {
-    color: #ff7ab2;
+    color: #f975b5;
 }
 
 .token.string {
-    color: #ff8170;
+    color: #ff8a65;
 }
 
 .token.number {
@@ -27,7 +27,7 @@ Swift programming language
 }
 
 .token.comment {
-    color: #7f8c98;
+    color: #6a737d;
     font-style: italic;
 }
 
