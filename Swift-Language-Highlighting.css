@@ -4,6 +4,13 @@ Swift.org Inspired Syntax Colours
 Swift programming language
 */
 
+/* Create a default color for variables and words not picked up by Prism - it happens sadly */
+pre code,
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #f5f5f7;
+}
+
 .token.keyword {
     color: #f975b5;
 }
