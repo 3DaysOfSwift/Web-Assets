@@ -5,11 +5,14 @@ Swift programming language
 */
 
 /* Create a default color for variables and words not picked up by Prism - it happens sadly */
-pre code,
+pre[class*="language-"],
 code[class*="language-"],
-pre[class*="language-"] {
-    color: #f5f5f7;
+pre[class*="language-"] code {
+    color: #f5f5f7 !important;
+    text-shadow: none !important;
 }
+
+
 
 .token.keyword {
     color: #f975b5;
